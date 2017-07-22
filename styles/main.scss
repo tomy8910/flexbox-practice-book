@@ -1,0 +1,21 @@
+@import "bourbon/bourbon";
+
+ul {
+  display: flex;
+  list-style: none;
+  border: 1px solid red;
+  background-color: #e8e8e9;
+  align-items: flex-start;
+}
+
+li {
+  background-color: #8cacea;
+  flex: auto;
+  border: 2px solid red;
+  margin: 2em;
+}
+
+// flex: auto ==> flex: 1 1 auto
+// flex: default ==> flex: 0 1 auto
+// flex: none ==> flex: 0 0 auto
+// flex: "positive number" ==> flex: "positive number" 1 0
